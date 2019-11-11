@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "discogs-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Henry Gressmann"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+grab = "^0.6.41"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
