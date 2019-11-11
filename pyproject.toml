@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "discogs-scraper"
+name = "recordskip-ai"
 version = "0.1.0"
 description = ""
 authors = ["Henry Gressmann"]
